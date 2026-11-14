@@ -49,11 +49,14 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Claude Code (agente local, nao vai para o GitHub)
-.claude/
+# Claude Code: settings.json e hooks/ sao versionados; so a configuracao pessoal fica fora
+.claude/settings.local.json
 CLAUDE.local.md
 
 # OS
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Entregas de arte do usuário antes do import (ver docs/ART_PIPELINE.md)
+/ArtDrop/
